@@ -30,7 +30,7 @@ int main()
   //Array setup
   cout << "Please enter the number of digits you want: ";
   cin >> arrsize;
-  int* dynarr = new int(arrsize);
+  int* dynarr = new int[arrsize];
 
   //Functions
   fromfile(dynarr, filestuff, arrsize);
